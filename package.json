@@ -1,0 +1,20 @@
+{
+  "name": "digital-data-store",
+  "version": "1.0.0",
+  "description": "A redux implementation of the W3 digital data layer specification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "digital",
+    "data",
+    "layer",
+    "redux"
+  ],
+  "author": "Sebastian Klingler",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^3.7.2"
+  }
+}
