@@ -1,6 +1,6 @@
 const sideEffects = {};
 
-const dispatcher = store => next => action => {
+const middleware = store => next => action => {
 	let result = next(action);
 	console.log('Dispatched:', action);
 	let state = store.getState();
@@ -16,6 +16,8 @@ const register = (actionType, sideEffect) => {
 }
 
 module.exports = {
-	middleware: dispatcher,
-	register
+	dispatcher: {
+		middleware,
+		register
+	}
 }
