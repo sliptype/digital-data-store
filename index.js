@@ -10,9 +10,7 @@ const dispatch = (actionType, data) => {
 		data
 	};
 
-	if (actions[action.type]) {
-		store.dispatch(action);
-	}
+	store.dispatch(action);
 }
 
 module.exports = {
