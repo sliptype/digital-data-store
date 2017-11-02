@@ -1,15 +1,6 @@
-const { CART } = require('./actionTypes');
-
-/** Action Creators **/
-
-function cartAddItem(item) {
-	return {
-		type: CART.ADD,
-		item
+module.exports = {
+	CART: {
+		ADD: 'CART_ADD',
+		REMOVE: 'CART_REMOVE'
 	}
 }
-
-module.exports = {
-	cartAddItem
-}
-

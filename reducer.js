@@ -1,5 +1,5 @@
 const { combineReducers } = require('redux');
-const { CART } = require('./actionTypes');
+const { CART } = require('./actions');
 
 /** Reducers **/
 
