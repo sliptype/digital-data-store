@@ -16,8 +16,6 @@ const register = (actionType, sideEffect) => {
 }
 
 module.exports = {
-	dispatcher: {
-		middleware,
-		register
-	}
+	middleware,
+	register
 }

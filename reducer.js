@@ -14,6 +14,4 @@ function cartItems(state = [], action) {
 const cart = combineReducers({ items: cartItems });
 const reducer = combineReducers({ cart });
 
-module.exports = {
-	reducer
-}
+module.exports = reducer;

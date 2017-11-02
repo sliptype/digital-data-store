@@ -1,6 +1,6 @@
 {
   "name": "digital-data-store",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A redux implementation of the W3 digital data layer specification",
   "main": "index.js",
   "scripts": {

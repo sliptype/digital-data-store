@@ -1,7 +1,6 @@
 const { createStore, applyMiddleware } = require('redux');
-const { CART } = require('./actionTypes');
-const { reducer } = require('./reducers');
-const { dispatcher } = require('./dispatcher');
+const reducer = require('./reducer');
+const dispatcher = require('./dispatcher');
 const store = createStore(reducer, applyMiddleware(dispatcher.middleware));
 
 module.exports = {
